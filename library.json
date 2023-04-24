@@ -1,0 +1,29 @@
+{
+  "name": "MCU-lilOS",
+  "version": "0.1.2",
+  "description": "A simple Arduino-based library / operating system / framework aiming to extend capabilities of embedded devices with those known from big computers, such as multi-tasking, inter-task communication and connectivity. Provides a set of device drivers and standard tasks. Customizable in such a way as to to fit in devices with low technical parameters as well as use the stronger hardware to the fullest. Aims to provide unified API as to allow for simplicity of programming and clarity of connections.",
+  "keywords": "OS, multitasking, multi-tasking, devices, connectivity, tasks, IPC",
+  "authors": [
+    {
+      "name": "Maciej Stępski",
+      "email": "neutronstar76@proton.me",
+      "url": ""
+    }
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brightstar76/mculilos.git"
+  },
+  "dependencies": {
+    "knolleary/PubSubClient": "^2.8",
+    "adafruit/DHT sensor library": "^1.4.4"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif8266"
+  ]
+}
